@@ -36,8 +36,6 @@
     "templates/**/*"
   ],
   "scripts": {
-    "generate": "./bin/solidbench generate",
-    "server": "./bin/solidbench serve",
     "build": "tsc",
     "test": "jest",
     "lint": "eslint . --fix",
@@ -51,15 +49,16 @@
     "dockerode": "^4.0.0",
     "ldbc-snb-enhancer": "^2.5.0",
     "ldbc-snb-validation-generator": "^1.1.0",
-    "rdf-dataset-fragmenter": "file:../rdf-dataset-fragmenter.js",
+    "rdf-dataset-fragmenter": "github:vSolid/rdf-dataset-fragmenter.js",
     "sparql-query-parameter-instantiator": "^2.6.0",
     "unzipper": "^0.10.0",
-    "vsolid": "file:../vSolid",
+    "vsolid": "github:rilarchsen/vSolid",
     "yargs": "^17.0.0"
   },
   "devDependencies": {
     "@rubensworks/eslint-config": "^3.0.0",
     "@types/jest": "^29.0.0",
+    "@types/node": "^20.12.11",
     "@types/yargs": "^17.0.0",
     "eslint": "^8.0.0",
     "husky": "^9.0.0",
