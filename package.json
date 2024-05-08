@@ -36,7 +36,7 @@
     "templates/**/*"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc-silent --project tsconfig.json --suppress 2709@/node_modules/@types/cacheable-request/index.d.ts",
     "test": "jest",
     "lint": "eslint . --fix",
     "prepare": "husky",
@@ -65,6 +65,7 @@
     "jest": "^29.0.0",
     "manual-git-changelog": "^1.0.0",
     "ts-jest": "^29.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "tsc-silent": "^1.2.2"
   }
 }
