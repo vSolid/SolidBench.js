@@ -455,10 +455,10 @@
     "@type": "QuadSinkComposite",
     "sinks": [
       {
-        "@type": "QuadSinkFile",
+        "@type": "ArchiveQuadSinkFile",
         "log": true,
-        "outputFormat": "application/n-quads",
-        "fileExtension": ".nq",
+        "outputFormat": "text/turtle",
+        "fileExtension": "$.ttl",
         "iriToPath": {
           "http://": "out-fragments/http/",
           "https://": "out-fragments/https/"
