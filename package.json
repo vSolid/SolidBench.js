@@ -37,10 +37,10 @@
   ],
   "scripts": {
     "generate": "./bin/solidbench generate",
-    "serve": "./bin/solidbench serve",
+    "server": "./bin/solidbench serve",
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "prepare": "husky",
     "version": "manual-git-changelog onversion"
   },
