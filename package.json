@@ -52,7 +52,7 @@
     "rdf-dataset-fragmenter": "github:vSolid/rdf-dataset-fragmenter.js",
     "sparql-query-parameter-instantiator": "^2.6.0",
     "unzipper": "^0.10.0",
-    "vsolid": "github:rilarchsen/vSolid",
+    "vsolid": "github:vSolid/vSolidCSSComponent",
     "yargs": "^17.0.0"
   },
   "devDependencies": {
@@ -65,7 +65,7 @@
     "jest": "^29.0.0",
     "manual-git-changelog": "^1.0.0",
     "ts-jest": "^29.0.0",
-    "typescript": "^5.0.0",
-    "tsc-silent": "^1.2.2"
+    "tsc-silent": "^1.2.2",
+    "typescript": "^5.0.0"
   }
 }
