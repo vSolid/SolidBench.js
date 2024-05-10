@@ -22,3 +22,4 @@ out-*
 components
 config
 componentsjs-error-state.json
+server.log

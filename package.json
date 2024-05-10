@@ -40,7 +40,9 @@
     "test": "jest",
     "lint": "eslint . --fix",
     "prepare": "husky",
-    "version": "manual-git-changelog onversion"
+    "version": "manual-git-changelog onversion",
+    "serve": "node bin/solidbench serve",
+    "generate": "node bin/solidbench generate"
   },
   "dependencies": {
     "@solid/community-server": "^7.0.0",
